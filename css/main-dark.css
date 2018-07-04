@@ -1,0 +1,106 @@
+/**************************
+  DEFAULT BOOTSTRAP STYLES
+**************************/
+.container-fluid {
+    background: black;
+    color: white;
+}
+.btn, .modal .modal-content {
+    background-color: black;
+    border: 1px solid transparent;
+    border-color: white;
+    color: white;
+}
+#number-page, #number-row {
+    color: black;
+}
+
+/**************************
+  DEFAULT BOOTSTRAP STYLES
+**************************/
+#table-data-header {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#table-data-footer {
+    padding: 10px;
+}
+
+.btn-group {
+    padding: 5px;
+}
+
+.button-save{
+    background-image: url(http://transportnagar.com/images/ajax_loading.gif);
+    background-repeat: no-repeat; 
+    background-position: center;
+    opacity: 0.5;
+}
+
+.table-tbody{
+    background-image: url(http://blog.teamtreehouse.com/wp-content/uploads/2015/05/InternetSlowdown_Day.gif);
+    background-repeat: no-repeat; 
+    background-position: center;
+    opacity: 0.5;
+}
+
+.headerSortUp {
+    background-image: url(../css/img-black/sort_up1600.png);
+}
+
+.headerSortDown {
+    background-image: url(../css/img-black/sort_down1600.png);
+}
+
+.header {
+    background-image: url(../css/img-black/sort1600.png);
+}
+
+.header, .headerSortDown, .headerSortUp {
+    cursor: pointer;
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center right; 
+    padding-left: 20px; 
+    border-right: 1px solid #dad9c7; 
+    margin-left: -1px;
+}
+
+.row-insert-new {
+    -webkit-animation: insert-new 2s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation: insert-new 2s infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes insert-new {
+    0%   {background: black;}
+    100% {background: #ccf1cc;}
+}
+
+@keyframes insert-new {
+    0%   {background: black;}
+    100% {background: #ccf1cc;}
+}
+
+.row-update-new {
+    -webkit-animation: update-new 2s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation: update-new 2s infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes update-new {
+    0%   {background: black;}
+    100% {background: lightblue;}
+}
+
+@keyframes update-new {
+    0%   {background: black;}
+    100% {background: lightblue;}
+}
